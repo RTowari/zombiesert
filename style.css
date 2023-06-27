@@ -1,11 +1,58 @@
-.places-box {
-    width: 25%;
+
+body {
+    height: 100vh;
+    background: rgb(196, 196, 196)
+}
+
+.left-box {
     display: inline-block;
+    width: 25%;  
+}
+
+/* places in the town */
+.places-box {
     background: rgb(161, 157, 157)
+}
+
+
+.place {
+    display: inline-block;
+}
+
+.thumbnail {
+    width: 49%;
+    height: auto;
+}
+
+img {
+    width: 50px;
+    height: auto;
+    display: inline-block;
 }
 
 .current-location {
     width: 74%;
     display: inline-block;
     background: rgb(95, 93, 93)
+}
+
+/* bars */
+.thirst-box {
+    display: flex;
+}
+
+.hunger-box {
+    display: flex;
+}
+
+.progress-bar {
+    background-color: rgb(0, 119, 255);
+    height: 20px;
+    width: 100%;
+    border-style: solid;
+}
+
+/* Current location */
+.big-image {
+    width: 50%;
 }
